@@ -1,0 +1,19 @@
+{
+  "name": "gym-reminders",
+  "version": "1.0.0",
+  "description": "A server that sends an SMS alert to me reminding me to go to the gym",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sid Nutulapati",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sidgonuts/gym-reminders"
+  },
+  "dependencies": {
+    "cron": "^1.1.0",
+    "twilio": "^2.9.0"
+  }
+}
