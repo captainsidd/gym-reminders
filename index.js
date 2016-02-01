@@ -13,7 +13,7 @@ var SMSdata = {
   body: 'DO YOU WANNA BE AWESOME? HIT THE GYM, FOOL.'
 };
 
-var textJob = new cronJob( '45 5 * * *', function(){
+var textJob = new cronJob( '45 5 * * 1,3,5', function(){
   client.sendMessage(SMSdata, function(err, responseData) {
       if (err) {
         console.log(err);
