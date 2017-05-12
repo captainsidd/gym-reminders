@@ -20,4 +20,4 @@ Basically, I text the system when I need to be reminded about something. It asks
 
 3) Depending on if you're doing this in production or not:
 
-```$ node script.js``` OR ```$ pm2 script.js```
+```$ node script.js``` OR ```$ pm2 start script.js```
