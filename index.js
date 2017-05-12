@@ -1,7 +1,8 @@
-var twilio = require('twilio');
+'use strict';
 
-var ACCOUNTSID = 'AC336b5f57436f64eedc1b44237059804e';
-var AUTHTOKEN = '3b8322ecf21c30e363f9becb91da74ea';
+const twilio = require('twilio');
+const ACCOUNTSID = '';
+const AUTHTOKEN = '';
 
 var client = twilio(ACCOUNTSID, AUTHTOKEN);
 var cronJob = require('cron').CronJob;
